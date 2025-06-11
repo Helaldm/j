@@ -42,3 +42,18 @@ function ConvertHandler() {
 }
 
 module.exports = ConvertHandler;
+class ConvertHandler {
+    // Métodos para manejar conversiones
+    getNum(input) {
+        // Lógica para extraer el número
+    }
+    getUnit(input) {
+        // Lógica para extraer la unidad
+    }
+    convert(num, unit) {
+        // Lógica para convertir entre unidades
+    }
+    getString(initNum, initUnit, returnNum, returnUnit) {
+        // Lógica para devolver la cadena de resultado
+    }
+}
